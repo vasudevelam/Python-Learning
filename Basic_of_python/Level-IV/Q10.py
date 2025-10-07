@@ -1,3 +1,5 @@
+#WAP STORE ITEAM PURCHASE AND THEN CACULATE GST 
+
 pr=input("Enter a purchase iteam is:=")
 pri=int(input("Enter a price is:="))
 oq=int(input("Enter a quantiy of iteam is:="))
