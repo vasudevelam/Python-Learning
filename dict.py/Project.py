@@ -1,0 +1,18 @@
+print("CRETAE A ACCOUNT SIMPLE --------- PROGRAM IS CALCULATE % OF------------ ANY QUESTION ")
+AMOUNT=float(input("ENTER A AMOUNT WHICH IS GIVE IN QUESTION IS : "))
+PER=int(input("ENTER A PERCENTAGE OF AMOUNT IS :  "))
+year=int(input("Enter a year is : "))
+MONTH=12
+if year==MONTH:
+    CALCULAT=(AMOUNT*PER)/100
+    FINAL=AMOUNT-CALCULAT
+    print("CALCULAT THE IS  :",CALCULAT)
+    print("FINAL ANSWER IS : ",FINAL)
+elif year<MONTH:
+    CALCULAT=(AMOUNT*PER/100)*year/MONTH
+    FINAL=AMOUNT-CALCULAT
+    print("CALCULAT THE IS  :",CALCULAT)
+    print("FINAL ANSWER IS : ",FINAL)
+
+
+

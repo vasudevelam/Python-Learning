@@ -1,4 +1,4 @@
-# Take a list of numbers and separate it into two new lists — one containing even numbers and one containing odd numbers.
+# # Take a list of numbers and separate it into two new lists — one containing even numbers and one containing odd numbers.
 
 a=eval(input('Enter a number is : '))
 even=[]
@@ -10,3 +10,5 @@ for i in a:
         odd.append(i)
 print(even)
 print(odd)
+
+
